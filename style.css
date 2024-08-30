@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    flex-wrap: wrap; /* Permite que as imagens se movam para a linha seguinte */
+    justify-content: center; /* Centraliza as imagens horizontalmente */
+    align-items: center; /* Centraliza as imagens verticalmente */
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Altura da tela */
+    background-color: #FCF2E3; /* Cor de fundo opcional */
+}
+
+h1 {
+    color: #422800;
+    text-align: center;
+    width: 100%; /* Para garantir que o título ocupe toda a largura */
+}
+
+img {
+    width: 23%; /* Ajuste a largura das imagens */
+    height: auto; /* ajusta a proporção da imagem */
+    padding: 20px; /* Espaçamento entre as imagens */
+    box-sizing: border-box; /* Inclui padding na largura total */
+}
+
